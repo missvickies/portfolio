@@ -35,4 +35,5 @@ export const GlobalStyle = createGlobalStyle`
    font-family: 'Playfair Display', serif;
    font-weight: normal;
  }
+
 `;

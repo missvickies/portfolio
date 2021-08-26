@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "Josefin Sans";
   src: url("/static/JosefinSans-Regular.ttf");
 }
@@ -12,7 +12,7 @@
 @font-face {
   font-family: "Playfair Display";
   src: url("/static/PlayfairDisplay-Regular.ttf");
-}
+} */
 
 body {
   background: green;
@@ -29,6 +29,22 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
   font-weight: normal;
+}
+
+/* animations */
+.my-node-enter {
+  opacity: 0;
+}
+.my-node-enter-active {
+  opacity: 1;
+  transition: opacity 200ms;
+}
+.my-node-exit {
+  opacity: 1;
+}
+.my-node-exit-active {
+  opacity: 0;
+  transition: opacity 200ms;
 }
