@@ -1,7 +1,7 @@
 export default function about() {
   return (
     <>
-      <h1>First Post</h1>
+      <h1 className="slide-right">First Post</h1>
     </>
   );
 }
