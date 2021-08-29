@@ -14,8 +14,12 @@
   src: url("/static/PlayfairDisplay-Regular.ttf");
 } */
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Sora:wght@600&display=swap");
+
 body {
-  background: green;
+  background: white;
+  font-family: "Poppins", sans-serif;
+  font-size: small;
 }
 
 *,
@@ -31,20 +35,71 @@ h3,
 h4 {
   /* font-family: "Playfair Display", serif; */
   font-weight: normal;
+  font-family: "Sora", sans-serif;
 }
 
-/* animations */
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+a {
+  color: black;
+}
+.icon {
+  background: black;
+  border-radius: 100%;
+  overflow: hidden;
+  color: white;
+  fill: white;
+  height: 4em;
+  width: 4em;
+  margin: 4px;
+  margin-left: 4px;
+}
+.icon:hover {
+  background: white;
+  color: black;
+  fill: black;
+}
+
+.github {
+  background: white;
+  color: black;
+  fill: black;
+}
+.github:hover {
+  background: #6441a5;
+  color: white;
+  fill: white;
+}
+
+.linkedin:hover {
+  color: #007bb6;
+  height: 50px;
+  fill: #007bb6;
+}
+svg {
+  width: 100%;
+  height: 100%;
+}
+/* 
+
 .my-node-enter {
   opacity: 0;
 }
 .my-node-enter-active {
   opacity: 1;
-  transition: opacity 200ms;
+  transition: opacity 300ms;
 }
 .my-node-exit {
   opacity: 1;
 }
 .my-node-exit-active {
   opacity: 0;
-  transition: opacity 200ms;
+  transition: opacity 300ms;
 }
+.my-node-apear-active {
+  opacity: 1;
+} */
